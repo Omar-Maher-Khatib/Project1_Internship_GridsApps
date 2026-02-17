@@ -156,6 +156,19 @@ nav {
     position: relative;
 }
 
+.page-hero .container h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    position: relative;
+    display: inline-block;
+}
+
+.page-hero .container p{
+    font-size: 1.25rem;
+    margin-top: 10px;
+    color: var(--white);
+}
 /* Story Section */
 .our-story {
     display: flex;
@@ -192,7 +205,6 @@ nav {
 .story-text {
     flex: 1;
     min-width: 300px;
-    animation: fadeInLeft 0.8s ease-out;
 }
 
 .story-text h2 {
@@ -218,16 +230,11 @@ nav {
 
 .story-text p {
     font-size: 1.125rem;
-    line-height: 1.8;
-    color: var(--text-color);
-    margin-bottom: var(--spacing-sm);
-    text-align: justify;
-}
-
-.story-text p:first-of-type {
-    font-size: 1.25rem;
     font-weight: 500;
+    line-height: 1.8;
     color: var(--tertiary-color);
+    margin-bottom: 60px;
+    text-align: justify;
 }
 
 .story-text .highlight {
@@ -237,7 +244,7 @@ nav {
 
 .story-image {
     flex: 1;
-    min-width: 300px;
+    min-width: 200px;
     position: relative;
     animation: fadeInRight 0.8s ease-out;
 }
