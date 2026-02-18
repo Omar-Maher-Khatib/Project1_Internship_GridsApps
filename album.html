@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album - FreshSips</title>
+    <link rel="stylesheet" href="assets/css/album.css">
+    <script src="assets/js/album-filter.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Fresh<span>Sips</span></h1>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="album.html" class="active">Album</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Photo Gallery</h1>
+            <p>A visual journey through our fresh creations and happy moments</p>
+        </div>
+    </section>
+
+    <!-- Gallery Categories -->
+    <section class="gallery-categories">
+        <div class="container">
+            <div class="category-tabs">
+                <button class="category-tab active" data-category="all">All Photos</button>
+                <button class="category-tab" data-category="drinks">Our Drinks</button>
+                <button class="category-tab" data-category="store">Our Store</button>
+                <button class="category-tab" data-category="events">Events</button>
+                <button class="category-tab" data-category="customers">Happy Customers</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Grid -->
+    <section class="gallery-grid">
+        <div class="container">
+            <div class="gallery-container">
+                <!-- Drinks Category -->
+                <div class="gallery-item" data-category="drinks">
+                    <div class="gallery-image">
+                        <div class="placeholder-image" style="background: linear-gradient(135deg, #ff6b6b, #ee5a6f);">
+                            <div class="image-icon">
+                                <img src="assets/img/tropical.jpg" alt="Fresh Orange Juice">
+                            </div>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Tropical Smoothie</h3>
+                            <p>Fresh mango and pineapple blend</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="drinks">
+                    <div class="gallery-image">
+                        <div class="placeholder-image" style="background: linear-gradient(135deg, #55efc4, #00b894);">
+                            <div class="image-icon">
+                                <img src="assets/img/green.jpg" alt="Green Detox Juice">
+                            </div>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Green Detox</h3>
+                            <p>Power-packed green juice</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="drinks">
+                    <div class="gallery-image">
+                        <div class="placeholder-image" style="background: linear-gradient(135deg, #fdcb6e, #e17055);">
+                            <div class="image-icon">
+                                <img src="assets/img/mango.jpg" alt="Mango Paradise Juice">
+                            </div>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Mango Paradise</h3>
+                            <p>Creamy mango dream</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="drinks">
+                    <div class="gallery-image">
+                        <div class="placeholder-image" style="background: linear-gradient(135deg, #a29bfe, #6c5ce7);">
+                            <div class="image-icon">
+                                <img src="assets/img/berry.jpg" alt="Berry Fusion Smoothie">
+                            </div>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Berry Fusion</h3>
+                            <p>Mixed berry smoothie</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Store Category -->
+                <div class="gallery-item" data-category="store">
+                    <div class="gallery-image">
+                        <div class="placeholder-image" style="background: linear-gradient(135deg, #74b9ff, #0984e3);">
+                            <div class="image-icon">🏪</div>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Our Storefront</h3>
+                            <p>Welcome to Fresh Sips</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="store">
+                    <div class="gallery-image">
+                        <div class="placeholder-image" style="background: linear-gradient(135deg, #fab1a0, #ff7675);">
+                            <div class="image-icon">🍊</div>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Fresh Ingredients</h3>
+                            <p>Quality fruits daily</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="store">
+                    <div class="gallery-image">
+                        <div class="placeholder-image" style="background: linear-gradient(135deg, #dfe6e9, #636e72);">
+                            <div class="image-icon">⚙️</div>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Juice Bar Setup</h3>
+                            <p>Professional equipment</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Events Category -->
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image">
+                        <div class="placeholder-image" style="background: linear-gradient(135deg, #ffeaa7, #fdcb6e);">
+                            <div class="image-icon">🎉</div>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Grand Opening</h3>
+                            <p>Celebration day</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image">
+                        <div class="placeholder-image" style="background: linear-gradient(135deg, #ff7675, #d63031);">
+                            <div class="image-icon">💝</div>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Valentine's Special</h3>
+                            <p>Love-themed drinks</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image">
+                        <div class="placeholder-image" style="background: linear-gradient(135deg, #81ecec, #00cec9);">
+                            <div class="image-icon">
+                                <img src="assets/img/fitness.webp" alt="Health & Fitness Expo">
+                            </div>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Health & Fitness Expo</h3>
+                            <p>Community event</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Customers Category -->
+                <div class="gallery-item" data-category="customers">
+                    <div class="gallery-image">
+                        <div class="placeholder-image" style="background: linear-gradient(135deg, #fd79a8, #e84393);">
+                            <span class="image-icon">😊</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Happy Customer</h3>
+                            <p>Enjoying fresh juice</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="customers">
+                    <div class="gallery-image">
+                        <div class="placeholder-image" style="background: linear-gradient(135deg, #a29bfe, #6c5ce7);">
+                            <span class="image-icon">👨‍👩‍👧</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Family Time</h3>
+                            <p>Creating memories</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="customers">
+                    <div class="gallery-image">
+                        <div class="placeholder-image" style="background: linear-gradient(135deg, #55efc4, #00b894);">
+                            <span class="image-icon">💪</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Fitness Enthusiasts</h3>
+                            <p>Post-workout refuel</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="drinks">
+                    <div class="gallery-image">
+                        <div class="placeholder-image" style="background: linear-gradient(135deg, #ff9a56, #ff6b35);">
+                            <span class="image-icon">🍊</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Fresh Orange Juice</h3>
+                            <p>Classic favorite</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="store">
+                    <div class="gallery-image">
+                        <div class="placeholder-image" style="background: linear-gradient(135deg, #6c5ce7, #a29bfe);">
+                            <span class="image-icon">✨</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Cozy Ambiance</h3>
+                            <p>Relax and enjoy</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Feed Section -->
+    <section class="instagram-feed">
+        <div class="container">
+            <h2>Follow Us on Instagram</h2>
+            <p class="section-subtitle">@FreshSipsJuiceBar - Join our community for daily inspiration</p>
+            
+            <div class="instagram-grid">
+                <div class="instagram-item">
+                    <div class="album-image" style="background: linear-gradient(135deg, #f093fb, #f5576c);">
+                        <img src="assets/img/children.jpg" alt="cheerful children enjoying juice">
+                    </div>
+                </div>
+
+                <div class="instagram-item">
+                    <div class="album-image" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">
+                        <img src="assets/img/children2.jpg" alt="cheerful children enjoying juice">
+                    </div>
+                </div>
+
+                <div class="instagram-item">
+                    <div class="album-image" style="background: linear-gradient(135deg, #43e97b, #38f9d7);">
+                        <img src="assets/img/children3.webp" alt="cheerful children enjoying juice">
+                    </div>
+                </div>
+
+                <div class="instagram-item">
+                    <div class="album-image" style="background: linear-gradient(135deg, #fa709a, #fee140);">
+                        <img src="assets/img/children4.jpg" alt="cheerful children enjoying juice">
+                    </div>
+                </div>
+
+                <div class="instagram-item">
+                    <div class="album-image" style="background: linear-gradient(135deg, #30cfd0, #330867);">
+                        <img src="assets/img/children5.jpg" alt="cheerful children enjoying juice">
+                    </div>
+                </div>
+            </div>
+
+            <div class="instagram-cta">
+                <a href="#" class="btn btn-instagram">Follow @FreshSipsJuiceBar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Testimonials with Photos -->
+    <section class="photo-testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <p class="section-subtitle">Real stories, real smiles</p>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-photo" style="background: linear-gradient(135deg, #667eea, #764ba2);">
+                        <span class="customer-emoji">😊</span>
+                    </div>
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"Best juice bar in town! The Green Goddess is my daily go-to. Fresh, healthy, and absolutely delicious!"</p>
+                        <p class="customer-name">- Sarah M.</p>
+                        <div class="rating">⭐⭐⭐⭐⭐</div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-photo" style="background: linear-gradient(135deg, #f093fb, #f5576c);">
+                        <span class="customer-emoji">🤩</span>
+                    </div>
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"Amazing variety and friendly staff. My kids love the Berry Blast smoothie. We come here every weekend!"</p>
+                        <p class="customer-name">- Michael R.</p>
+                        <div class="rating">⭐⭐⭐⭐⭐</div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-photo" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">
+                        <span class="customer-emoji">💚</span>
+                    </div>
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"The quality is unmatched. You can taste the freshness in every sip. Highly recommend the detox blends!"</p>
+                        <p class="customer-name">- Emma L.</p>
+                        <div class="rating">⭐⭐⭐⭐⭐</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="album-cta">
+        <div class="container">
+            <h2>Share Your Fresh Sips Moment!</h2>
+            <p>
+                Tag us in your photos with #FreshSipsMoment for a chance to be featured on our gallery and win a free drink!
+            </p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-primary btn-large">Visit Us Today</a>
+                <a href="portfolio.html" class="btn btn-secondary btn-large">View Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Fresh<span>Sips</span></h3>
+                    <p>
+                        Your go-to destination for fresh, healthy, and delicious
+                        beverages. We craft every drink with premium ingredients and a
+                        passion for quality.
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="service.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms &amp; Conditions</a></li>
+                        <li><a href="return.html">Return Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>📧 orders@freshsips.com</li>
+                        <li>📞 +972 52 2758 700</li>
+                        <li>📍 Jerusalem, Palestine</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Fresh Sips Drinks Store. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
