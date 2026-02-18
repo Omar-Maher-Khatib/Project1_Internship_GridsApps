@@ -1,88 +1,197 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - FreshSips</title>
-    <link rel="stylesheet" href="assets/css/portfolio.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - FreshSips</title>
+    <link rel="stylesheet" href="assets/css/contact.css" />
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <div class="logo">
-                <h1>Fresh<span>Sips</span></h1>
-            </div>
-            <nav>
-                <ul class="nav-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="service.html">Services</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="album.html">Album</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="contact.html" class="active">Contact</a></li>
-                </ul>
-                <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </nav>
+      <div class="container">
+        <div class="logo">
+          <h1>Fresh<span>Sips</span></h1>
         </div>
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="album.html">Album</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+          <button class="mobile-menu-toggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </nav>
+      </div>
     </header>
-    
+
     <!-- Page Hero -->
     <section class="page-hero">
-        <div class="container">
-            <h1>Contact Us</h1>
-            <p>We'd love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out.</p>
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p>
+          We'd love to hear from you! Whether you have questions, feedback, or
+          just want to say hello, feel free to reach out.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-wrapper">
+          <!-- Contact Form -->
+          <div class="contact-form">
+            <h2>Send us a Message</h2>
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="your.email@example.com"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="+972 XXX XXX XXX"
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="How can we help you?"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <div class="info-item">
+              <div class="info-icon">📍</div>
+              <div>
+                <h3>Address</h3>
+                <p>Jerusalem, Palestine</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">📞</div>
+              <div>
+                <h3>Phone</h3>
+                <p>+972 52 2758 700</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">📧</div>
+              <div>
+                <h3>Email</h3>
+                <p>orders@freshsips.com</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">🕒</div>
+              <div>
+                <h3>Hours</h3>
+                <p>Monday - Sunday<br />8:00 AM - 10:00 PM</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+      <div class="container">
+        <h2>Find Us</h2>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54611.90315009983!2d35.19381587910156!3d31.768318800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1502d7d634c1fc4b%3A0xd96f623e456ee1cb!2sJerusalem!5e0!3m2!1sen!2s!4v1708279200000!5m2!1sen!2s"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </div>
     </section>
 
     <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>Fresh<span>Sips</span></h3>
-                    <p>
-                        Your go-to destination for fresh, healthy, and delicious
-                        beverages. We craft every drink with premium ingredients and a
-                        passion for quality.
-                    </p>
-                </div>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Fresh<span>Sips</span></h3>
+            <p>
+              Your go-to destination for fresh, healthy, and delicious
+              beverages. We craft every drink with premium ingredients and a
+              passion for quality.
+            </p>
+          </div>
 
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="service.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                    </ul>
-                </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="service.html">Services</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+            </ul>
+          </div>
 
-                <div class="footer-section">
-                    <h4>Legal</h4>
-                    <ul>
-                        <li><a href="privacy.html">Privacy Policy</a></li>
-                        <li><a href="terms.html">Terms &amp; Conditions</a></li>
-                        <li><a href="return.html">Return Policy</a></li>
-                    </ul>
-                </div>
+          <div class="footer-section">
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="privacy.html">Privacy Policy</a></li>
+              <li><a href="terms.html">Terms &amp; Conditions</a></li>
+              <li><a href="return.html">Return Policy</a></li>
+            </ul>
+          </div>
 
-                <div class="footer-section">
-                    <h4>Contact Info</h4>
-                    <ul>
-                        <li>📧 orders@freshsips.com</li>
-                        <li>📞 +972 52 2758 700</li>
-                        <li>📍 Jerusalem, Palestine</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Fresh Sips Drinks Store. All rights reserved.</p>
-            </div>
+          <div class="footer-section">
+            <h4>Contact Info</h4>
+            <ul>
+              <li>📧 orders@freshsips.com</li>
+              <li>📞 +972 52 2758 700</li>
+              <li>📍 Jerusalem, Palestine</li>
+            </ul>
+          </div>
         </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Fresh Sips Drinks Store. All rights reserved.</p>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
